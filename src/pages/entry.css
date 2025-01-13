@@ -12,6 +12,15 @@
     justify-content: center;
     align-items: center;
     height: inherit;
+transition: background-color 1s;
+}
+@media (max-width: 500px){
+    .left-tot:hover {
+        background-color: burlywood;
+    }
+}
+.left-tot:hover {
+    background-color: red;
 }
 
 .right-tot {

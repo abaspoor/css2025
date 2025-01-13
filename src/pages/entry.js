@@ -1,5 +1,5 @@
 import React from "react";
-import "./entry.css";
+import "./main.scss";
 
 const Entry = ({children}) => {
 
