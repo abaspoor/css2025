@@ -5,6 +5,7 @@ const Entry = ({children}) => {
 
     const [child1,child2,child3,child4,child5]=React.Children.toArray(children);
 
+
     return (
         <div className="main-tot">
             <div className="left-tot">
