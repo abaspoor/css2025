@@ -1,0 +1,53 @@
+.main-tot {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-tot {
+  display: flex;
+  background-color: #61dafb;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  transition: background-color 1s;
+}
+.left-tot:hover {
+  background-color: #521751;
+}
+@media screen and (max-width: 500px) {
+  .left-tot:hover {
+    background-color: black;
+  }
+}
+
+.right-tot {
+  display: flex;
+  flex-direction: column;
+  background-color: burlywood;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.diff-sec {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.diff-fin {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */

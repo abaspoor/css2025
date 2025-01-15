@@ -1,5 +1,4 @@
-@use 'sass:color';
-@import "variable";
+@use '../variables' as *;
 
 .main-tot {
   display: flex;
@@ -17,13 +16,13 @@
   height: inherit;
   transition: background-color 1s;
   &:hover{
-    background-color: rgba(0,color.green(map-get($colors,first)),0,25%);
+    background-color: map-get($colors,first);
   }
   @media screen and (max-width:500px) {
-  &:hover{
-    background-color: darken($main-color,50%);
+    &:hover{
+      background-color: darken(map-get($colors,first),50%);
+    }
   }
-}
 }
 
 
